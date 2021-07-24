@@ -13,7 +13,10 @@ namespace FirstProject.Controllers
     {
         public ViewResult Index()
         {
-            return View("MyView");
+            int currentHour = DateTime.Now.Hour;
+            // is the hour less than 12 (out of 24) if so, it's morning so set viewmodel to good morning.  Else set to Good Afternoon
+            string viewModel = currentHour < 12 ? "Good Morning" : "Good Afternoon";
+            return View("MyView", viewModel);
         }
     }
 }
