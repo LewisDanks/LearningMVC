@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using PartyInvites.Models;
 
+// Test comment for commit
 namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
