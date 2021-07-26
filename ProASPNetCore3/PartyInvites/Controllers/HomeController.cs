@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using PartyInvites.Models;
 
 // Test comment for commit
-// Testing antoher commit
+// Testing antoher commit just another
 namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
